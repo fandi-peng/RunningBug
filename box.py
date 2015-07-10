@@ -11,7 +11,7 @@ class Box:
         self.circ_radius = 114
         self.height = 1000
         self.width = 1800
-        self.filename = 'box.txt'
+        self.filename = 'box/box.txt'
         self.raw_box = [['1'] * self.width for i in range(self.height)]
 
     # create the box environment, represented by nested lists for rows and columns
